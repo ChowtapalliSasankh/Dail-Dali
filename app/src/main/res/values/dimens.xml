@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. --><dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ImageSlider_height">160dp</dimen>
+    <dimen name="category_box_size">80dp</dimen>
+    <dimen name="Dialog_box_width">300dp</dimen>
+    <dimen name="category_row_height">100dp</dimen>
+    <dimen name="category_recylerview_height">250dp</dimen>
+    <dimen name="frame_layout_height">480dp</dimen>
+    <dimen name="TodayNews_recylerview_height">520dp</dimen>
+    <dimen name="CategoryList_recylerview_height">500dp</dimen>
+    <dimen name="category_row_image_width">92dp</dimen>
+    <dimen name="advertisement_image_size">75dp</dimen>
+    <dimen name="category_row_width">350dp</dimen>
+    <dimen name="news_row_image_height">150dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_verysmall">4dp</dimen>
+    <dimen name="Nomargin">0dp</dimen>
+    <dimen name="Textsize_small">20dp</dimen>
+    <dimen name="CategoryBox_Textsize">16dp</dimen>
+    <dimen name="Textsize_medium">30dp</dimen>
+    <dimen name="Textsize_large">40dp</dimen>
+    <dimen name="Textsize_verylarge">70dp</dimen>
+    <dimen name="Searchbar_height">48dp</dimen>
+    <dimen name="Searchbar_width">300dp</dimen>
+    <dimen name="NavigstionBar_height">64dp</dimen>
+
+</resources>

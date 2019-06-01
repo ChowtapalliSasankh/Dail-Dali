@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.accurate.dialdali.Register"
+    android:background="@drawable/registerbackground">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        android:layout_marginStart="32dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/colorTextSelected"
+        android:textSize="@dimen/Textsize_medium"
+        android:textAlignment="viewStart"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:paddingStart="@dimen/margin_verysmall"
+        android:paddingTop="@dimen/margin_verysmall"
+        android:paddingBottom="@dimen/margin_verysmall"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:id="@+id/editname"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No"
+        android:textColor="@color/colorTextSelected"
+        android:textSize="@dimen/Textsize_medium"
+        android:textAlignment="viewStart" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingStart="@dimen/margin_verysmall"
+        android:paddingTop="@dimen/margin_verysmall"
+        android:paddingBottom="@dimen/margin_verysmall"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:id="@+id/editnumber"
+
+        app:layout_constraintVertical_bias="0.51" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail Id"
+        android:textColor="@color/colorTextSelected"
+        android:textSize="@dimen/Textsize_medium"
+        android:textAlignment="viewStart" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/margin_verysmall"
+        android:paddingTop="@dimen/margin_verysmall"
+        android:paddingBottom="@dimen/margin_verysmall"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:id="@+id/editemail" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitbutton"
+            android:textColor="@color/colorNavbarSelectColor"
+            android:textSize="@dimen/Textsize_large"
+            android:textAlignment="center" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

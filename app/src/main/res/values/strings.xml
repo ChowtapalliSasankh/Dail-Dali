@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Dial Dali</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home  </string>
+    <string name="todaynews">Todaynews</string>
+    <string name="here_name">here_name</string>
+    <string name="here_mobile">here_mobile</string>
+    <string name="here_address">here_address</string>
+    <string name="searchtext"> </string>
+    <string name="naraul_news">NARNAUL NEWS</string>
+    <string name="text_nonetwork">"No Network Available Please Check Your Mobile Network And Try Again       "</string>
+    <string name="ok_text">OK</string>
+    <string name="try_again">Try Again</string>
+    <string name="share_app">Share App</string>
+    <string name="developer_info">Developer Info</string>
+    <string name="rate_app">Rate App</string>
+    <string name="error_text">Sorry some error has occured please try again.</string>
+    <string name="skip_ad"><![CDATA[Skip ad >>]]></string>
+    <string name="no_name">Name field cannot be empty</string>
+    <string name="lesslength_name">Name Should Be At least 4 Characters Long</string>
+    <string name="invalid_name">No Special Characters Or Numbers Allowed In The Name</string>
+    <string name="lesslength_number">Phone Number Should Be Of Length 10 Please Check Again!</string>
+    <string name="invalid_number">Number Should Start With Either 9,8,7 Or 6</string>
+    <string name="no_number">Number Field Cannot Be Empty</string>
+    <string name="invalid_email">Invalid Email Please Check Again</string>
+    <string name="Error_heading">Error</string>
+    <string name="facebookpage_url">https://www.facebook.com/BITOTSAV17/</string>
+    <string name="facebookpackage_text">fb://facewebmodal/f?href=</string>
+    <string name="instagrampage_url">http://instagram.com/_u/foodieku/</string>
+    <string name="instagrampackage_text">com.instagram.android</string>
+    <string name="nomatchitems_text">No Matching Items Found</string>
+</resources>

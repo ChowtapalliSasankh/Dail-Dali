@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_categotybox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_height="@dimen/category_box_size"
+        android:layout_width="@dimen/category_box_size"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginTop="@dimen/margin_verysmall"
+        android:layout_marginRight="@dimen/margin_verysmall"
+        android:layout_marginLeft="@dimen/margin_verysmall"
+        android:layout_marginBottom="@dimen/margin_verysmall"
+        android:background="@drawable/image_round"
+        app:cardBackgroundColor="@color/colorTextSelected"
+        app:cardElevation="@dimen/margin_small"
+        app:cardCornerRadius="@dimen/margin_medium">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/margin_verysmall"
+            android:id="@+id/categorytitle"
+            android:background="@color/colorTextSelected"
+            android:textColor="@color/colorTitleText"
+            android:textAlignment="center"
+            android:textSize="@dimen/CategoryBox_Textsize"/>
+</android.support.v7.widget.CardView>
+</LinearLayout>

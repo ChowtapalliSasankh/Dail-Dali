@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="@dimen/news_row_image_height"
+    android:layout_width="@dimen/Dialog_box_width"
+
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_margin="@dimen/margin_small">
+    <ImageView
+        android:layout_width="@dimen/Textsize_small"
+        android:layout_height="@dimen/Textsize_small"
+        android:src="@drawable/closemark"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:id="@+id/dialogclosemark"/>
+    <ImageView
+        android:layout_width="@dimen/category_box_size"
+        android:layout_height="@dimen/category_box_size"
+        android:src="@drawable/warning" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_medium"
+        android:textSize="@dimen/Textsize_medium"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitleText"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogtitle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_medium"
+        android:textSize="@dimen/Textsize_small"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogtext"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextSelected"
+        android:id="@+id/dialogbutton"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

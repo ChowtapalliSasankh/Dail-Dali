@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_developer_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/developerbg"
+    tools:context="com.accurate.dialdali.developer_info">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Developed by"
+    android:id="@+id/developtext"
+    android:textColor="@color/colorTextSelected"
+    android:textStyle="bold"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Accurate Gems Pvt. Ltd."
+        android:textColor="@color/colorTextSelected"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:id="@+id/companynametextView"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/developtext" />
+<ImageView
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/companynametextView"
+    android:src="@drawable/companylogo"/>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/margin_small"
+        app:layout_constraintHorizontal_bias="1.0">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us :"
+            android:textStyle="bold"
+            android:id="@+id/tv1"
+            android:textColor="@color/colorTextSelected"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Ankit Aggarwal"
+            android:textColor="@color/colorTextSelected"
+            android:id="@+id/tv2"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Akanksha Bansal"
+            android:textColor="@color/colorTextSelected"
+            android:id="@+id/tv3"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       akeeaggarwal@gmail.com"
+            android:id="@+id/tv4"
+            android:textColor="@color/colorNavbarSelectColor"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       akankshabansal94@gmail.com"
+            android:textColor="@color/colorNavbarSelectColor"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv4"
+            android:id="@+id/tv5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       Ph no : "
+            android:textColor="@color/colorTextSelected"
+            android:id="@+id/tv6"
+            android:textStyle="bold"
+            app:layout_constraintRight_toLeftOf="@+id/number1"
+            app:layout_constraintTop_toBottomOf="@+id/tv5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8802924432"
+            android:textColor="@color/colorNavbarSelectColor"
+            android:textAlignment="viewStart"
+            android:id="@+id/number1"
+            app:layout_constraintLeft_toRightOf="@+id/tv6"
+            app:layout_constraintTop_toBottomOf="@+id/tv5"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8882725857"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/colorNavbarSelectColor"
+            android:id="@+id/number2"
+            app:layout_constraintTop_toBottomOf="@+id/number1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgrnd">#B73E4D</color>
+    <color name="colorImageBackgrnd">#000000</color>
+    <color name="colorFragmentBackgrnd">#000000</color>
+    <color name="colorCategoryBox">#fff940</color>
+    <color name="colorCategoryRowCardView">#fdfdfd</color>
+    <color name="colorCardView">#334049</color>
+    <color name="colornewstitle">#fff940</color>
+    <color name="colorTextSelected">#fdfdfd</color>
+    <color name="colorNavbarSelectColor">#fff940</color>
+    <color name="colorWhite">#fdfdfd</color>
+    <color name="colorNormalText">#FF4081</color>
+    <color name="colorTitleText">#000000</color>
+    <color name="colorSubTitleText">#e90905</color>
+    <color name="colorText">#000000</color>
+    <color name="colorActionBar">#FF4081</color>
+</resources>
